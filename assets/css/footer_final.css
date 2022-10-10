@@ -1,0 +1,13 @@
+.abajo{
+    height: 70px;
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #1A132F;
+}
+
+.abajo p{
+    color: white;
+    text-align: center;
+    font-family: rale;
+}

@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background: #525E75; /*Color de Referencia solo para visibilizar el header*/
+}
+
+/*------------------------------------------------------------------------*/
+/* Caja Contenedora de la caja logo y la caja Nav*/
+.contenedor{
+    width: 80%;
+    height: 70px;
+    /*background: red;-->Color de Referencia solo para visibilizar la caja*/
+    margin:auto;
+}
+
+/*------------------------------------------------------------------------*/
+/*Caja del Logo*/
+.logo{
+    width: 30%;
+    height: 70px;
+    /*background: blue;-->Color de Referencia solo para visibilizar la caja*/
+    float: left;/*La Caja esté lo má a la izquierda posible*/
+    padding-top: 10px;
+    box-sizing: border-box; /*Que no se pase de los 70px*/
+}
+
+/*Texto del Logo*/
+.logo p a{
+    color: #F05454;
+    font-size: 40px;
+    text-decoration: none;    
+    font-weight: bold;/*Texto en negritas*/
+    font-family: rale;/*Asignamos la fuente que usaremos*/
+}
+/*------------------------------------------------------------------------*/
+
+/* Caja del Nav*/
+nav{
+    width: 70%;
+    height: 70px;
+    /*background: olive; -->Color de Referencia solo para visibilizar la caja*/
+    float: left;/*La Caja esté lo más a la izquierda posible*/
+    text-align: right;/*Que el texto se alínee a la derecha*/
+    padding-top: 24px;
+    box-sizing: border-box; /*Que no se pase de los 70px*/
+}
+
+/* Lista del nav*/
+nav ul li{
+    display: inline;/*Que la lista se muestre hacia el lado*/
+}
+
+/* Texto del Nav*/
+nav ul li a{
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;/*Letras en Mayúsculas*/
+    padding-left: 15px;/*Separar las frases o palabras de la lista*/
+    font-weight: bold;/*Texto en negritas*/
+    letter-spacing: 1px; /*Espacio entre letras de cada frase o palabra de la lista*/
+    font-family: rale;/*Asignamos la fuente que usaremos*/
+}
+
+/* Cuando se pase el Mouse sobre cada elemento que haga el efecto de cambio de color del texto*/
+nav ul li a:hover{
+    color: #00FFC6;
+}
+
+/*------------------------------------------------------------------------*/
+/*Que cargue una fuente de manera local*/
+@font-face{
+    font-family: rale; /*un alias al nombre de la fuente*/
+    src:url(/assets/fonts/Raleway/Raleway-Regular.ttf)/*Ubicación de la Fuente*/
+}

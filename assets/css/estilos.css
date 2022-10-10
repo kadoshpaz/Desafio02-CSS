@@ -1,0 +1,94 @@
+.principal{
+    width: 100%;
+    background: #F1DDBF; /*Color de Referencia solo para visibilizar el header*/
+    /* margin-bottom: 100px; */
+}
+
+.container{
+    width: 80%;
+    height: 300px;
+    /*background: red;-->Color de Referencia solo para visibilizar la caja*/
+    margin:auto;
+}
+
+/*------------------------------------------------------------------------*/
+/*Caja de la frase MUSIC*/
+.frase{
+    width: 60%;
+    height: 300px;
+    /*background: blue;-->Color de Referencia solo para visibilizar la caja*/
+    float: left;/*La Caja esté lo má a la izquierda posible*/
+    padding: 50px 0 0 50px;
+    box-sizing: border-box; /*Que no se pase de los 70px*/
+}
+
+/*Texto de la frase MUSIC*/
+.frase p a{
+    text-decoration: none;    
+    padding-left: 10px;/*Separar las frases o palabras*/
+} 
+/*------------------------------------------------------------------------*/
+
+/*Caja de la imagen*/
+.imgPrincipal{
+    width: 40%;
+    height: 300px;
+    /*background: yellow;-->Color de Referencia solo para visibilizar la caja*/
+    float: left;/*La Caja esté lo má a la izquierda posible*/
+    padding-top: 10px;
+    box-sizing: border-box; /*Que no se pase de los 70px*/
+}
+
+.mi_imagen img{
+    height: 280px;
+    max-width: 80%;
+    max-height: 50%;
+    float: right;
+    border-radius: 50%;
+}
+
+/*------------------------------------------------------------------------*/
+/*Que cargue una fuente de manera local*/
+@font-face{
+    font-family: khand; /*un alias al nombre de la fuente*/
+    src:url(/assets/fonts/Khand/Khand-Medium.ttf)/*Ubicación de la Fuente*/
+}
+
+/*Que cargue una fuente de manera local*/
+@font-face{
+    font-family: mono; /*un alias al nombre de la fuente*/
+    src:url(/assets/fonts/Monofett/Monofett-Regular.ttf)/*Ubicación de la Fuente*/
+}
+
+/*Que cargue una fuente de manera local*/
+@font-face{
+    font-family: cour; /*un alias al nombre de la fuente*/
+    src:url(/assets/fonts/Courgette/Courgette-Regular.ttf)/*Ubicación de la Fuente*/
+}
+
+#mu{/*Caja de la Frase Jazz*/
+    color: #4FBDBA;
+    font-size: 80px;
+    text-decoration: none;    
+    font-family: khand;/*Asignamos la fuente que usaremos */
+    letter-spacing: 1px; /*Espacio entre letras de cada frase o palabra*/
+    text-transform: uppercase;/*Letras en Mayúsculas*/
+}
+
+#ja{/*Frase Jazz*/
+    color: black;
+    font-size: 85px;
+    text-decoration: none;    
+    font-family: mono;/*Asignamos la fuente que usaremos */  
+}
+
+#ja:hover{
+    color: red;
+}
+
+#parrafo{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;    
+    font-family: cour;/*Asignamos la fuente que usaremos */  
+}
